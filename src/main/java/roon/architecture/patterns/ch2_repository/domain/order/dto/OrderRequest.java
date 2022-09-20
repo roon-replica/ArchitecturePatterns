@@ -1,4 +1,4 @@
-package roon.architecture.patterns.ch2_repository.order.dto;
+package roon.architecture.patterns.ch2_repository.domain.order.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

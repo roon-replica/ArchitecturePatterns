@@ -1,4 +1,4 @@
-package roon.architecture.patterns.ch2_repository.domain.order;
+package roon.architecture.patterns.ch2_repository.ui;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

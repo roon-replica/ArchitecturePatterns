@@ -1,4 +1,4 @@
-package roon.architecture.patterns.ch2_repository.domain.order.dto;
+package roon.architecture.patterns.python.ch2_repository.domain.order.dto;
 
 import lombok.*;
 

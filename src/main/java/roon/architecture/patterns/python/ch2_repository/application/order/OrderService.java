@@ -1,10 +1,10 @@
-package roon.architecture.patterns.ch2_repository.application.order;
+package roon.architecture.patterns.python.ch2_repository.application.order;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import roon.architecture.patterns.ch2_repository.domain.order.Order;
-import roon.architecture.patterns.ch2_repository.domain.order.repository.OrderRepository;
+import roon.architecture.patterns.python.ch2_repository.domain.order.Order;
+import roon.architecture.patterns.python.ch2_repository.domain.order.repository.OrderRepository;
 
 @Service
 public class OrderService {

@@ -1,4 +1,4 @@
-package roon.architecture.patterns.ch2_repository.ui;
+package roon.architecture.patterns.python.ch2_repository.ui;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -7,11 +7,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import roon.architecture.patterns.ch2_repository.application.order.OrderService;
-import roon.architecture.patterns.ch2_repository.domain.order.Order;
-import roon.architecture.patterns.ch2_repository.domain.order.dto.OrderRequest;
-import roon.architecture.patterns.ch2_repository.domain.order.dto.OrderResponse;
-import roon.architecture.patterns.ch2_repository.domain.product.Product;
+import roon.architecture.patterns.python.ch2_repository.application.order.OrderService;
+import roon.architecture.patterns.python.ch2_repository.domain.order.Order;
+import roon.architecture.patterns.python.ch2_repository.domain.order.dto.OrderRequest;
+import roon.architecture.patterns.python.ch2_repository.domain.product.Product;
 
 import java.util.stream.Collectors;
 

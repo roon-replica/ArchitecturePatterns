@@ -1,7 +1,7 @@
-package roon.architecture.patterns.ch2_repository.domain.order;
+package roon.architecture.patterns.python.ch2_repository.domain.order;
 
 import org.springframework.data.annotation.Id;
-import roon.architecture.patterns.ch2_repository.domain.product.Product;
+import roon.architecture.patterns.python.ch2_repository.domain.product.Product;
 
 import javax.persistence.CollectionTable;
 import javax.persistence.ElementCollection;

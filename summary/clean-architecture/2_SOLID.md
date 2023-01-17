@@ -19,6 +19,23 @@
     - 정보 은닉...?
 - 다시 말하면 OCP는 확장하기 쉬우면서, 시스템이 변경에 너무 많은 영향을 받지 않도록 하기 위한거라고 함..
 
+### ch 9. LisKov Substitution
+> S 타입의 객체 o1 각각에 대응하는 T 타입 객체 o2가 있고, T 타입을 이용해서 정의한 모든 프로그램 P에서
+> 
+> o2 자리에 o1을 치환하더라도 P의 행위가 변하지 않는다면, S는 T의 하위 타입이다. 
+> 
+> `derived classes` should be substitutable for their `base classes`
+ 
+- 위 정의에서 S:T = ArrayList:List라고 보면 되는듯한데.. 그래서 뭐..?
+
+- LSP 위반 예시로 정사각형/직사각형 문제라는게 있음.
+- LSP가 단순히 List와 ArrayList같은 클래스 디자인에만 적용되는게 아니라, 아키텍처 수준까지도 적용가능하다고 함.
+  - JDBC가 LSP의 아키텍처적인 예시라고 볼 수 있는듯. 다른 종류의 DB로 쉽게 교체가능하니까
+  - 영속화 API로 JPA를 쓸지, jdbc template을 쓸지 쉽게 바꿀 수 있도록 하는것도 LSP 준수하는건가 
+
+
+
+  
 
 
 

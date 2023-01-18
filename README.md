@@ -6,3 +6,4 @@
 
   - Clean Architecture(로버트 마틴)
 
+  - 만들면서 배우는 헥사고날 아키텍처 설계와 구현(Davi Vieira, 위키북스)
